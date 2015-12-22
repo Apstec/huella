@@ -1,0 +1,12 @@
+package Alumnos;
+
+
+import java.util.List;
+
+public interface AlumnosDao {
+     public void insertar(AlumnosBean alumnos);
+    public void actualizar(AlumnosBean alumnos);
+    public void eliminar(AlumnosBean alumnos);
+    public List<AlumnosBean> seleccionar(AlumnosBean alumnos);
+    public AlumnosBean seleccionarById(int id);
+}
